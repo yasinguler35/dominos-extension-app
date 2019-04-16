@@ -1,0 +1,15 @@
+{
+    "siparis": [
+      { "id": 1, "Durum":"Hazırlanıyor","SiparisVeren":"Yasin Güler","PizzaTipi":"Mantarlı" },
+      { "id": 2, "Durum":"Fırında","SiparisVeren":"Eren Özcan","PizzaTipi":"Karışık" },
+      { "id": 3, "Durum":"Sipariş Onaylandı","SiparisVeren":"Cem Karaaslan","PizzaTipi":"Kaşarlı"  },
+      { "id": 4, "Durum":"Kontrol Ediliyor","SiparisVeren":"Ahmet Çavuşoğlu","PizzaTipi":"Diyet" },
+      { "id": 5, "Durum":"Yola Çıktı","SiparisVeren":"Aydın Özbilen","PizzaTipi":"Bol Aclı" }
+    ],
+    "firsatlar": [
+      { "id": 1, "Mail":"yasinguler007@gmail.com","Sifre":2,"FirsatText":"Bu perşembe pizzalarda %50 indirim" },
+      { "id": 2, "Mail":"erenozcan@gmail.com","Sifre":1,"FirsatText":"Bu salı 1 alana bir bedava" }
+    ]
+  }
+
+  

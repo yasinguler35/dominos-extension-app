@@ -1,0 +1,15 @@
+{
+  "manifest_version": 2,
+
+  "name": "Dominos Pizza Takip",
+  "description": "Dominos Pizza Takip",
+  "version": "1.0.0",
+  "icons": { "128": "dominos.png"
+  },
+  "browser_action": {
+    "default_icon": "dominos.png",
+    "default_popup": "popup.html"
+  },
+  "permissions": ["activeTab","geolocation","notifications"]
+  
+}

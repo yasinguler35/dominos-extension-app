@@ -1,0 +1,90 @@
+<!doctype html>
+<html>
+
+<head>
+
+  <title>Dominos Pizza Takip</title>
+
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" type="text/css">
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+    crossorigin="anonymous">
+  <!-- <link rel="stylesheet" href="./dist/notifications.css" type="text/css"> -->
+  <link href="style.css" rel="stylesheet" type="text/css">
+  <!-- Notifications styling -->
+
+</head>
+
+<body>
+  <div class="modal-header">
+    <h1 class="logo">
+      <img class="logo-icon" src="images/dominos.png" title="Sipariş Takip">Sipariş Takip
+      <!-- <span class="version">(1.0.0)</span> -->
+    </h1>
+  </div>
+  <div class="modal-content">
+    <form id="siparisform">
+        <br/>
+          <label for="usr">Sipariş no:</label>
+          <input type="text" class="form-control" id="siparisno" required>
+          <br/>
+          <input type="submit" value="Göster">
+          
+
+          <br/>
+          <div id="siparisdurum">
+            <br/>
+            <div id="siparisveren">
+              
+            </div>
+            <br/>
+            <ul id="siparisdurumliste" style="display: none">
+              <li><a href="">Sipariş Onaylandı</a></li>
+              <li><a href="">Hazırlanıyor</a></li>
+              <li><a href="">Fırında</a></li>
+              <li><a href="">Kontrol Ediliyor</a></li>
+              <li><a href="">Yola Çıktı</a></li>
+            </ul>
+          </div>
+    
+          <br/>
+    </form>
+  </div>
+  <div class="modal-icons">
+    <div class="flex-container">
+      <!-- <div class="flex">
+        <a href="https://www.traversymedia.com" target="_blank">
+          <i class="fa fa-globe"></i>
+        </a>
+      </div> -->
+      <div class="flex">
+        <a href="https://www.youtube.com/channel/UCfwJEnsU0myu4YKcIqxMimA" target="_blank">
+          <i class="fa fa-youtube"></i>
+        </a>
+      </div>
+      <div class="flex">
+        <a href="https://twitter.com/dominostr" target="_blank">
+          <i class="fa fa-twitter"></i>
+        </a>
+      </div>
+      <div class="flex">
+        <a href="https://tr-tr.facebook.com/DominosTurkiye/" target="_blank">
+          <i class="fa fa-facebook"></i>
+        </a>
+      </div>
+      <div class="flex">
+        <a href="https://www.instagram.com/dominospizzatr/?hl=tr" target="_blank">
+          <i class="fa fa-instagram"></i>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <script src="popup.js"></script>
+  <script src="node_modules/push.js/bin/push.js"></script>
+  <script src="main.js"></script>
+  <!-- <script src="./dist/notifications.js"></script>
+  <script src="./notificy.js"></script> -->
+</body>
+
+</html>
